@@ -1,5 +1,9 @@
 # ga4-report
 
+[![CI](https://github.com/angelmunizpedraza/ga4-report/actions/workflows/ci.yml/badge.svg)](https://github.com/angelmunizpedraza/ga4-report/actions)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 Informe de tráfico orgánico desde la API de Google Analytics 4, con comparación
 automática contra el periodo anterior y alertas de landing pages que caen o suben.
 
