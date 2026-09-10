@@ -14,10 +14,18 @@ lugar de con veinte minutos de clics en la interfaz de GA4.
 ## Instalación
 
 ```bash
+pip install "ga4-report @ git+https://github.com/angelmunizpedraza/ga4-report"
+```
+
+Deja disponible el comando `ga4-report`. Para trabajar sobre el código:
+
+```bash
 git clone https://github.com/angelmunizpedraza/ga4-report
 cd ga4-report
-pip install -r requirements.txt
+pip install -e ".[dev]"
 ```
+
+(`python -m ga4_report` sigue funcionando igual.)
 
 ## Configuración (una sola vez)
 
